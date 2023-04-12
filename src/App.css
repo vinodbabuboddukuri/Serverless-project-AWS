@@ -1,0 +1,271 @@
+/* .form {
+	padding: 25px;
+	margin: 20px;
+	max-width: 400px;
+	height: 500px;
+	margin: 50px auto;
+	background: lightblue;
+	border-radius: 10px;
+	box-shadow: 10px 10px 0 rgba(38, 162, 75, 0.299);
+}
+
+.button {
+	margin: 50px auto;
+} */
+/* body {
+    font-family: sans-serif;
+    background: #1a1a1a;
+  }
+  
+  form {
+    margin: 5rem auto 0;
+    width: 24rem;
+  
+    .count {
+      padding: 0.25rem 0;
+      text-align: center;
+      color: #fff;
+      background: #333;
+      border-radius: 4px;
+    }
+  
+    div,
+    select {
+      margin-bottom: 1.5rem;
+      width: inherit;
+    }
+  
+    input,
+    select {
+      padding: 0 0.5rem;
+      width: inherit;
+      height: 2rem;
+      border-radius: 4px;
+      border: none;
+      box-sizing: border-box;
+    }
+  
+    input[type="submit"] {
+      height: 2.5rem;
+      font-size: 1rem;
+      color: #fff;
+      background: #0971f1;
+      cursor: pointer;
+    }
+  
+    p {
+      margin-top: 0.5rem;
+      color: #ff9900;
+    }
+  }
+   */
+   /* form {
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  } */
+  /* label {
+	font-weight: bold;
+	display: block;
+	margin-bottom: 10px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"] {
+	display: block;
+	width: 20%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+  }
+  input[type="text"]:invalid,
+  input[type="email"]:invalid,
+  input[type="tel"]:invalid,
+  input[type="date"]:invalid {
+	border-color: red;
+  }
+  
+  input[type="text"]:valid,
+  input[type="email"]:valid,
+  input[type="tel"]:valid,
+  input[type="date"]:valid {
+	border-color: green;
+  }
+  button[type="submit"],
+  button[type="reset"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-right: 10px;
+  }
+  
+  button[type="reset"] {
+	background-color: #F64668;
+  }
+  select {
+	font-size: 16px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #fff;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16"><path fill="%23ccc" d="M12.5 5.5l-5 5-5-5z"/></svg>');
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+  }
+  
+  select option {
+	padding: 10px;
+	font-size: 16px;
+	background-color: #fff;
+	color: #333;
+  }
+  
+  select option:checked {
+	background-color: #ccc;
+	color: #fff;
+  }
+  .btn {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	padding: 12px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn:hover {
+	background-color: #3e8e41;
+  }
+  
+  .btn:active {
+	background-color: #13583b;
+	box-shadow: none;
+  }
+	 */
+
+   .App-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: #4e4a4a;*/
+    color: #000000;
+    padding: 1em;
+  }
+  
+  .App-header li {
+    margin-right: 1em;
+  }
+  
+  .App-header a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .App-header a:hover {
+    text-decoration: underline;
+  }
+  
+   body {background-image: linear-gradient(120deg, #effaf6 0%, #1d6d86 100%);}
+   * {
+    box-sizing: border-box;
+    
+  }
+  
+  input[type=text], select, textarea {
+    width: 15%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    
+  }
+  
+  label {
+    padding: 25px 10px 25px 0;
+    display: inline-block;
+    
+  }
+  
+
+  .button {
+    background-color: #984063;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button.add {
+    background-color: #984063;
+  }
+  
+  .button.add:hover {
+    background-color: #984063;
+  }
+  
+  .button.remove {
+    background-color: #F64668;
+  }
+  
+  .button.remove:hover {
+    background-color: #cc2e23;
+  }
+  
+  /* Button style */
+.button {
+  background-color: #984063;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Primary button style */
+.button.primary {
+  background-color: #984063;
+}
+
+/* Secondary button style */
+.button.secondary {
+  background-color: #F64668;
+}
+
+/* Button hover state */
+.button:hover {
+  opacity: 0.8;
+}
+
+/* Button container */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+
+ 
+  
+
+  
